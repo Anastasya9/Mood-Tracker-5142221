@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/moodEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите настроение" />
+
+    <Button
+        android:id="@+id/saveMoodButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить настроение" />
+
+    <Button
+        android:id="@+id/mostFrequentMoodButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Посмотреть самое частое настроение за день" />
+
+    <TextView
+        android:id="@+id/moodHistoryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="История настроений"
+        android:paddingTop="16dp" />
+</LinearLayout>

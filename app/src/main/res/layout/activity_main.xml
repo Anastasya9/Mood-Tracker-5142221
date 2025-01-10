@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/moodPromptTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Выберите ваше настроение:"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonGoodMood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Хорошее" />
+
+    <Button
+        android:id="@+id/buttonAverageMood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Так себе" />
+
+    <Button
+        android:id="@+id/buttonBadMood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Плохое" />
+
+    <Button
+        android:id="@+id/buttonViewMostFrequentMood"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:insetLeft="100dp"
+        android:insetTop="6dp"
+        android:insetRight="30dp"
+        android:text="Итоги дня" />
+
+    <TextView
+        android:id="@+id/textViewMoodHistory"
+        android:layout_width="match_parent"
+        android:layout_height="347dp"
+        android:paddingBottom="16dp"
+        android:text="История настроений"
+        android:textSize="18sp" />
+</LinearLayout>
